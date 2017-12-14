@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="5dp" android:stretchColumns="1">
+    <TableRow>
+        <TextView android:text="@string/nombre" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/apellido" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/e_mail" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp" />
+    </TableRow>
+    <TableRow>
+        <TextView android:text="@string/mensaje" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="6dp" android:paddingRight="5dp" android:inputType="textMultiLine" android:lines="3" />
+    </TableRow>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/suscribirse_por_e_mail" android:checked="true" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:text="@string/web" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textColor="#0000FF" android:textStyle="bold" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+        <TextView android:text="@string/TextoConEnlace" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:gravity="center" android:orientation="horizontal">
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/confirmar" />
+        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cancelar" />
+    </LinearLayout>
+</TableLayout>
